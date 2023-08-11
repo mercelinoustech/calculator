@@ -1,0 +1,218 @@
+.body{
+ 
+}
+.container{
+    font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Sans JP', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(5, 50px);
+    gap: 5px;
+    width: 350px;
+    background-color: #F4F2DE;
+}
+.inputt{
+    height: 50px;
+    width: 350px;
+ 
+  background-color: beige;
+    border-style: inherit;
+    box-shadow: 2px 2px 2px px #F4F2DE ;
+    
+}
+.input{
+    margin-bottom: 20px;
+}
+.zero{
+display: flex;
+justify-content: center;
+order: 17;
+
+background-color: white;
+border-radius: 5%;
+box-shadow: 0.9px 0.9px 0.9px 0.9px;
+
+}
+.one{
+    display: flex;
+    justify-content: center;
+    order: 13;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    order: 14;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    order: 15;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    order: 9;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.five{
+    display: flex;
+    justify-content: center;
+    order: 10;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.six{
+    display: flex;
+    justify-content: center;
+    order:11 ;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.seven{
+    display: flex;
+    justify-content: center;
+    order: 5;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.eight{
+    display: flex;
+    justify-content: center;
+    order: 6;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.nine{
+    display: flex;
+    justify-content: center;
+    order: 7;
+    background-color: white;
+    border-radius: 5%;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    order: 19;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.minus{
+    display: flex;
+    justify-content: center;
+    order: 8;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    order: 12;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.minus{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5%;
+}
+.multiply{
+    display: flex;
+    justify-content: center;
+    order: 4;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.divide{
+    display: flex;
+    justify-content: center;
+    order: 3;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.but-clear{
+    background-color: #FF9B9B;
+    width: 100%;
+    border-style: hidden;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.clear{
+    background-color: #FF9B9B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    order: 18;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.power{
+    display: flex;
+    justify-content: center;
+    order: 2;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+}
+.equal{
+    display: flex;
+    justify-content: center;
+    order: 16;
+    grid-row: span 2;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0.9px 0.9px 0.9px 0.9px;
+    
+}
+.ac{
+    text-align: center;
+    align-items: center;
+    display: flex;
+  
+}
+.but {
+    width: 100%;
+   font-size: 1.5rem;
+    border-style: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.t{
+    background-color: white;
+}
